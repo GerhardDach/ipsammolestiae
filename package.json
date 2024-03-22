@@ -1,0 +1,100 @@
+{
+  "name": "ipsammolestiae",
+  "version": "1.0.0",
+  "description": "The React <QueryBuilder /> component for constructing queries",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist/query-builder.scss",
+    "dist/query-builder.css",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GerhardDach/ipsammolestiae.git"
+  },
+  "keywords": [
+    "aspernatur",
+    "ducimus",
+    "builder",
+    "nihil",
+    "ui",
+    "voluptas",
+    "clause",
+    "et",
+    "perferendis"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/GerhardDach/ipsammolestiae.git",
+  "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@material-ui/core": "^4.11.2",
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.168",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "all-contributors-cli": "^6.19.0",
+    "antd": "^4.10.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-istanbul": "^6.0.0",
+    "bootstrap": "^5.0.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "del-cli": "^4.0.1",
+    "enzyme": "^3.11.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0",
+    "framer-motion": "^4",
+    "gh-pages": "^3.1.0",
+    "github-changes": "^2.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "jest": "^27.0.6",
+    "less": "^4.1.0",
+    "less-loader": "^10.0.1",
+    "mini-css-extract-plugin": "^2.1.0",
+    "np": "^7.2.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^6.1.1",
+    "prettier": "2.4.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-syntax-highlighter": "^15.4.4",
+    "sass": "^1.40.0",
+    "sass-loader": "^12.1.0",
+    "typescript": "^4.1.3",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^4.2.1",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "jest": {
+    "coverageDirectory": "coverage",
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.ts"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>src/__mocks__/styleMock.ts"
+    },
+    "testEnvironment": "jsdom"
+  },
+  "author": "MargieRitchie"
+}
